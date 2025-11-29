@@ -1,5 +1,3 @@
-//  Q8. Write a program to reverse a number.
-
 import java.util.Scanner;
 
 class ReverseNum{
@@ -14,5 +12,6 @@ class ReverseNum{
             num /= 10;
         }
         System.out.println("the reversed number is " + reversed);
+        sc.close();
     }
 }

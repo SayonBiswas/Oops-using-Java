@@ -1,5 +1,3 @@
-//  Q5. Write a program to check a number is odd or even.
-
 import java.util.Scanner;
 
 class EvenOdd{
@@ -13,5 +11,6 @@ class EvenOdd{
         } else {
             System.out.println(num + " is odd number");
         }
+        sc.close();
     }
 }

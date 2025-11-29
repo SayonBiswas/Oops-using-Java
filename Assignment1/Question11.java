@@ -13,5 +13,6 @@ class PositiveNegative{
         } else {
             System.out.println(num + " is positive number");
         }
+        sc.close();
     }
 }

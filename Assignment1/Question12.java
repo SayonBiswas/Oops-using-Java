@@ -15,5 +15,6 @@ class PositiveNegativeZero{
         } else {
             System.out.println(num + " is a zero");
         }
+        sc.close();
     }
 }

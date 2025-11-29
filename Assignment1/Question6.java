@@ -1,5 +1,3 @@
-//  Q6. Write a program to input the marks of a student in three different subjects and then display the average mark.
-
 import java.util.Scanner;
 
 class Average{
@@ -13,5 +11,6 @@ class Average{
         double science = sc.nextDouble();
         double average = (english + maths + science) / 3;
         System.out.println("The average marks in 3 subjects is :" + average);
+        sc.close();
     }
 }

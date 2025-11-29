@@ -1,5 +1,3 @@
-//  Q4. Write a program to swap two numbers without using a third variable.
-
 import java.util.Scanner;
 
 class Swap{
@@ -12,5 +10,6 @@ class Swap{
         y = x - y;
         x -= y;
         System.out.println("After swapping x: " + x + " and y: " + y);
+        sc.close();
     }
 }
