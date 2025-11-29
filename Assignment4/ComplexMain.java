@@ -10,6 +10,7 @@ class Complex{
 		real = sc.nextDouble();
 		System.out.print("Enter the imaginary part: ");
 		imaginary = sc.nextDouble();
+		sc.close();
 	}
 	
 	public void show(){

@@ -16,6 +16,7 @@ class Student{
 		branch = sc.nextLine();
 		System.out.print("Enter the CGPA: ");
 		CGPA = sc.nextDouble();
+		sc.close();
 	}
 	
 	public void display(){

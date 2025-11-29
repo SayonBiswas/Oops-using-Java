@@ -15,9 +15,10 @@ class AverageMain{
 		System.out.print("Enter the second number: ");
 		double no2 = sc.nextDouble();
 		System.out.print("Enter the third number: ");
-		double no3 = sc.nextDoubleN();
+		double no3 = sc.nextDouble();
 		
 		Average result = new Average();
 		result.calculate(no1, no2, no3);
+		sc.close();
 	}
 }

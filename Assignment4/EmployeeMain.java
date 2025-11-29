@@ -44,5 +44,6 @@ class EmployeeMain{
 		for(Employee emp:employees){
 			emp.putData();
 		}
+		sc.close();
 	}
 }

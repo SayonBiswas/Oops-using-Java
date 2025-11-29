@@ -51,5 +51,6 @@ class ComplexDemo{
         ComplexNum sum = c1.addCompNumber(c2);
         System.out.print("Sum of the two Complex Numbers: ");
         sum.displayCompNumber();
+        sc.close();
     }
 }

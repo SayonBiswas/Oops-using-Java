@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-import java.util.Scanner;
-
 class Box{
     private double width;
     private double height;
@@ -34,5 +32,6 @@ class BoxMain{
         Box myBox = new Box(w, h, d);
 
         System.out.println("Volume of the box: " + myBox.volume());
+        sc.close();
     }
 }

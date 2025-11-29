@@ -35,5 +35,6 @@ class PointMain{
 
         double distance = p1.distanceBetPoints(p2);
         System.out.println("Distance between the two points: " + distance);
+        sc.close();
     }
 }

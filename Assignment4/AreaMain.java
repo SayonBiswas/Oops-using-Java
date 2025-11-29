@@ -25,5 +25,6 @@ class AreaMain{
 		rect.setDim(len, brd);
 		double area =  rect.getArea();
 		System.out.println("Area of the rectangle: " + area);
+		sc.close();
 	}
 }

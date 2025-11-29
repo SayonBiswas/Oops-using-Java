@@ -14,6 +14,7 @@ class Student{
 		sc.nextLine();
 		System.out.print("Enter the branch: ");
 		branch = sc.nextLine();
+		sc.close();
 	}
 	
 	public void display(){

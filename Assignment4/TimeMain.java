@@ -59,5 +59,6 @@ class TimeMain{
         Time total = t1.addTime(t2);
         System.out.print("Sum of Times: ");
         total.displayTime();
+        sc.close();
     }
 }
