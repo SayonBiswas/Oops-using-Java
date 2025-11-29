@@ -29,5 +29,6 @@ class Sort{
             System.out.print(element + " ");
         }
         System.out.println();
+        sc.close();
     }
 }

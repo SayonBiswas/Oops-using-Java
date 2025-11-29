@@ -1,5 +1,3 @@
-//	Q3. Write a program input two matrices and perform the addition of two matrices.
-
 import java.util.Scanner;
 
 class AdditionTwoDArray{
@@ -26,6 +24,7 @@ class AdditionTwoDArray{
             System.out.println();
         }
         System.out.println();
+        sc.close();
     }
 
     private static int[][] createMatrix(String name, int row, int col) {

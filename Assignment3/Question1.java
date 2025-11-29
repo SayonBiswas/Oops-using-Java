@@ -1,5 +1,3 @@
-//	Q1. Write a program to search an element present in the array
-
 import java.util.Scanner;
 
 class Search{
@@ -19,9 +17,9 @@ class Search{
         for (int i = 0; i < n; i++) {
             if (array[i] == key) {
                 System.out.println(key + " was found at index " + i);
-                return;
             }
         }
         System.out.println(key + " was not found in the array");
+        sc.close();
     }
 }
