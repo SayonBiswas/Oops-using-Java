@@ -1,8 +1,3 @@
-/*	Q6. Write a program that will take employee id, employee name, department number, salary from the command prompt. If the user does not
-		provide exactly two numbers of arguments then the program should display error message. Use methods display() to display the record of
-		employee.
-*/
-
 class Employee{
     public static void main(String[] args) {
         if (args.length != 4) {

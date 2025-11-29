@@ -1,5 +1,3 @@
-//	Q7. Write a program to accept the SIC, name, branch and marks of six subjects using command line argument. Calculate the average marks.
-
 class Student{
     public static void main(String[] args) {
         String sic = args[0], name = args[1], branch = args[2];
