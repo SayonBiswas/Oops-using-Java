@@ -9,6 +9,7 @@ class RecursiveGCD{
         int num1 = sc.nextInt();
         int num2 = sc.nextInt();
         System.out.println("The gcd of " + num1 + " and " + num2 + " is " + gcd(num1, num2));
+        sc.close();
     }
 
     private static int gcd(int num1, int num2) {

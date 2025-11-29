@@ -1,5 +1,3 @@
-//	Q8. Write a program to find out the binary equivalent of any inputted decimal number.
-
 import java.util.Scanner;
 
 class Binary{
@@ -15,5 +13,6 @@ class Binary{
             mul *= 10;
         }
         System.out.println("The binary equivalent is " + bin);
+        sc.close();
     }
 }

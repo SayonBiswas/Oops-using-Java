@@ -1,5 +1,3 @@
-//  Q10. Write a program to find out the largest between two numbers using a conditional operator.
-
 import java.util.Scanner;
 
 class LargestTwoNum{
@@ -10,5 +8,6 @@ class LargestTwoNum{
         int num2 = sc.nextInt();
         int max = num1 > num2 ? num1 : num2;
         System.out.println("The largest between " + num1 + " and " + num2 + " is " + max);
+        sc.close();
     }
 }

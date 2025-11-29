@@ -1,5 +1,3 @@
-//  Q3. Write a program to calculate the roots of a quadratic equation.
-
 import java.util.Scanner;
 
 class Root{
@@ -24,5 +22,6 @@ class Root{
                 System.out.println("The real and distinct roots are " + root1 + " and " + root2);
             }
         }
+        sc.close();
     }
 }

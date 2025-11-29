@@ -11,5 +11,6 @@ class LargestThreeNum{
         int num3 = sc.nextInt();
         int max = num1 > num2 ? (num1 > num3 ? num1 : num3) : (num2 > num3 ? num2 : num3);
         System.out.println("The largest between " + num1 + ", " + num2 + " and " + num3 + " is " + max);
+        sc.close();
     }
 }

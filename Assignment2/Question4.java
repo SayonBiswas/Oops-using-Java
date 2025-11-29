@@ -1,8 +1,6 @@
-//  Q4. Write a program to enter a number from 1 to 7 and display the corresponding day of the week using switch statement.
-
 import java.util.Scanner;
 
-class Day{
+class DayMain{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the day number: ");
@@ -32,9 +30,9 @@ class Day{
                 day = "Sunday";
                 break;
             default:
-                System.out.println("Invalid day number");
-                return;
+                day = "Invalid Input";
         }
         System.out.println("The corresponding day is " + day);
+        sc.close();
     }
 }

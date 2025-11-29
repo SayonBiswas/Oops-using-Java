@@ -8,6 +8,7 @@ class RecursionSum{
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
         System.out.println("The sum of first " + n + " natural numbers is " + sum(n));
+        sc.close();
     }
 
     private static int sum(int n) {

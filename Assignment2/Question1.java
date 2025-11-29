@@ -1,10 +1,3 @@
-/*  Q1. Write a program to calculate tax, given the following conditions:
-        a. If income is less than 150000 then no tax
-        b. If taxable income is in the range 150001 to 300000 then charge 10% tax
-        c. If taxable income is in the range 300001 to 500000 then charge 20% tax
-        d. If taxable income is above 500001 then charge 30% tax
-*/
-
 import java.util.Scanner;
 
 class Tax{
@@ -24,5 +17,6 @@ class Tax{
             taxRate = 0;
         }
         System.out.println("Your calculated tax on the income is " + taxRate);
+        sc.close();
     }
 }

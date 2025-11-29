@@ -1,5 +1,3 @@
-//	Q5. Write a program to find out the factorial of any inputted number.
-
 import java.util.Scanner;
 
 class Factorial{
@@ -13,5 +11,6 @@ class Factorial{
             fact *= i;
         }
         System.out.println("The factorial of " + num + " is " + fact);
+        sc.close();
     }
 }

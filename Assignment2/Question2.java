@@ -1,13 +1,3 @@
-/*	Q2. Write a program to enter the marks of a student in 4 different subjects. Then display the grade of the student as per the following
-       conditions:
-		a. If the average mark is greater than or equal to 90 then grade is O
-		b. If the average mark is greater than equal to 80 but less than 90 then grade is E
-		c. If the average mark is greater than equal to 70 but less than 80 then grade is A
-		d. If the average mark is greater than equal to 60 but less than 70 then grade is B
-		e. If the average mark is greater than equal to 50 but less than 60 then grade is C
-		f. If the average mark is less than 50 then grade is F
-*/
-
 import java.util.Scanner;
 
 class Grade{
@@ -38,5 +28,6 @@ class Grade{
             grade = "F";
         }
         System.out.println("Your grade is " + grade);
+        sc.close();
     }
 }
